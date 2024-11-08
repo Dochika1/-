@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Toolbar with app title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6200EE"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="MidtermBtuEasy"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- User Icon -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/person_icon" />
+
+    <!-- Displayed Number TextView -->
+    <TextView
+        android:id="@+id/displayedNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="555 55 55 55"
+        android:textSize="24sp"
+        android:textColor="#555555"
+        android:background="#E0E0E0"
+        android:gravity="center_vertical"
+        android:padding="10dp" />
+
+    <!-- Displayed Message TextView -->
+    <TextView
+        android:id="@+id/displayedMessage"
+        android:layout_width="match_parent"
+        android:layout_height="290dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:drawable/edit_text"
+        android:padding="10dp"
+        android:text="textview"
+        android:textSize="18sp" />
+
+    <!-- Clear Button -->
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="Clear" />
+</LinearLayout>
